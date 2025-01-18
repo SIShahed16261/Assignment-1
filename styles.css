@@ -67,6 +67,7 @@ button:hover {
     color: #0E0E0E;
     text-align: left;
     margin: 0;
+    margin-bottom: 24px;
 }
 
 .vision-p2 {
@@ -74,4 +75,57 @@ button:hover {
     font-weight: 400;
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+}
+.vision-img-p1{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+.vision-img-p2{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 24px;
+}
+.Read-more-btn{
+    background-color: #006A50;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 12px;
+}
+.vision-img-div{
+    border-radius: 8px;
+    background-color: rgb(255, 208, 127);
+    padding: 32px;
+    flex: 1;
+}
+.vision-img{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+.yunus-p1{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;   
+}
+.yunus-p2{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px; 
+}
+.yunus{
+    padding: 48px 24px;
+    background-color: rgba(255, 255, 255, 1);
+    background-image: url('B11A1--assignment-1-main/assets/quote-bg.png');
+    background-position: 24px 48px;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    
 }
