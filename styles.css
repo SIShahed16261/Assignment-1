@@ -51,7 +51,7 @@ button {
 }
 
 button:hover {
-    background-color: blueviolet;
+    background-color: orangered;
 }
 
 .vision {
@@ -104,7 +104,7 @@ button:hover {
 
 .vision-img-div {
     border-radius: 8px;
-    background-color: rgb(255, 208, 127);
+    background-color: skyblue;
     padding: 32px;
     flex: 1;
 }
@@ -228,14 +228,14 @@ button:hover {
     font-family: 'Fira Sans', sans-serif;
     font-weight: 700;
     font-size: 40px;
-    background-color: wheat;
+    background-color: rgb(135, 207, 235);
     border-radius: 15px;
     padding: 40px;
 
 }
 
 .donate-tk:hover {
-    background-color: blueviolet;
+    background-color: orangered;
 }
 
 .divtk {
@@ -252,4 +252,77 @@ button:hover {
     padding: 10px;
     text-align: center;
     margin-bottom: 32px;
+    border-radius: 5px;
+    border-color: white;
+}
+
+.sub {
+    background-color: #C6E4D6;
+    border-radius: 15px;
+    text-align: center;
+    padding: 80px 100px;
+    margin-bottom: 80px;
+}
+
+.sub-p1 {
+    color: rgba(14, 14, 14, 1);
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.sub-p2 {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.sub-div>input {
+    width: 90%;
+    max-width: 90%;
+    box-sizing: border-box;
+    padding: 12px;
+    text-align: center;
+    /* border-radius: 12px; */
+    border-color: white;
+}
+
+.sub-div {
+    display: flex;
+    align-items: center;
+}
+
+.sub-div>input {
+
+    font-family: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+    background-color: white;
+    text-align: left;
+    padding-left: 45px;
+    width: 90%;
+
+}
+
+.sub-div>button {
+    border-radius: 0px 8px 8px 0px;
+    background-color: green;
+    padding: 12px;
+
+}
+
+.sub-div>button:hover {
+    background-color: orangered;
+}
+
+.sub-p3 {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+
 }
